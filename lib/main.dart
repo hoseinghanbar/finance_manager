@@ -186,3 +186,17 @@ class _MainScreenState extends State<MainScreen> {
     );
   }
 }
+
+
+# 1. اطلاعات کاربر رو تنظیم کن (با ایمیل و نام خودت)
+git config --global user.email "hosein.ghanbari.samani@gmail.com"
+git config --global user.name "hoseinghanbar"
+
+# 2. حالا کامیت کن
+git commit -m "Complete finance manager project"
+
+# 3. برنچ رو چک کن
+git branch
+
+# 4. حالا push کن
+git push -u origin main
