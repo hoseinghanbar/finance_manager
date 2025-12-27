@@ -50,7 +50,7 @@ dependencies:
   table_calendar: ^3.0.9
   
   # 💰 Currency
-  money2: ^5.1.0  # ✅ تغییر به نسخه جدید
+  money2: ^6.0.9
   flutter_currency_picker: ^1.7.0
 
   # syncfusion_flutter_charts: ^23.2.6
