@@ -1,0 +1,68 @@
+# Android
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/app/src/main/java/com/example/*/GeneratedPluginRegistrant.java
+/android/app/src/main/gen/
+/android/app/src/main/assets/flutter_assets/
+/android/app/src/main/res/values/google-services.xml
+
+# iOS
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/app.zip
+/ios/Flutter/flutter_assets/
+/ios/ServiceDefinitions.json
+/ios/Runner/GeneratedPluginRegistrant.*
+
+# Flutter
+.DS_Store
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+flutter_*.ico
+*.swp
+*.iml
+*.lock
+
+# Android Studio
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+*.class
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# IntelliJ
+*.ipr
+*.iws
+*.shelf
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Firebase
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Environment
+.env
+.env.production
+
+# Get Storage
+get_storage_data/

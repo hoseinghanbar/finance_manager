@@ -1,0 +1,76 @@
+name: finance_manager
+description: A personal finance management app
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # 📦 State Management & Routing
+  get: ^4.6.5
+  
+  # 💾 Local Storage
+  get_storage: ^2.1.1
+  shared_preferences: ^2.2.2
+  
+  # 🌐 Internationalization & Date
+  intl: ^0.20.2
+  
+  # 📊 Charts & Visualization
+  fl_chart: ^0.66.0
+  
+  # 🔗 External Services
+  share_plus: ^7.2.1
+  url_launcher: ^6.2.2
+  image_picker: ^1.0.4
+  
+  # 🎨 UI & Design
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  
+  # 🔒 Security
+  encrypt: ^5.0.3
+  
+  # 📄 PDF & Export
+  printing: ^5.11.3
+  pdf: ^3.10.4
+  
+  # 🔄 Utilities
+  uuid: ^4.3.3
+  equatable: ^2.0.5
+  
+  # 📅 Date & Time Picker
+  persian_datetime_picker: ^3.2.0
+  table_calendar: ^3.0.9
+  
+  # 💰 Currency
+  money2: ^6.0.9  # ✅ تغییر به نسخه جدید
+  flutter_currency_picker: ^1.7.0
+
+  # syncfusion_flutter_charts: ^23.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  # fonts:
+  #   - family: Vazir
+  #     fonts:
+  #       - asset: assets/fonts/Vazir.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/Vazir-Bold.ttf
+  #         weight: 700
